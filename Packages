@@ -26,3 +26,37 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: org.h6nry.adowngrader_0.0.2-7_iphoneos-arm.deb
+Version: 0.0.2-7
+Section: Tweaks
+Maintainer: H6nry
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.h6nry.adowngrader_0.0.2-7_iphoneos-arm.deb
+Size: 860
+MD5sum: 814bfbfb309e70b575af5afe9e897e5d
+Description: Requires iOS 6 (maybe compatible below)
+
+A very basic app downgrade tool implementation. I wrote this because I could not wait for unlimapps to update their App Admin tool for iOS 6 (which might never happen, anyways...). As I said, just the very basics: Downgrade an app if you have a workig "external version identifier". Not hiding updates, no fancy UI, complicated interface.
+Notice: As of V.0.2, there is no preference panel anymore. Adowngrader will prompt you with a text input where you are allowed to change the downloading app identifier.
+
+How to use
+1) Find out the "external version identifier" of the version of the app you want to downgrade.
+2) Download your app as usual (one at a time).
+3) Paste your external version identifier into the text prompt (Adowngrader might prompt you more than once).
+4) Important: *Wait* for the download to finish!
+5) Start your app :)
+
+Spelling
+"A" like the french "un" (one/a) and "downgrader" like the english word "downgrade" with an appended "-er", like in "murderer". Short "A" and stress the "do", then "wngrader" spoken out slowly. I have no idea why I spent one thought on this.
+New in Version 0.2-7
+- The "Who else needs a preference pane?" update.
+- Now with an innovative enable/disable toggle.
+- Funny app icon included.
+New in Version 0.2
+- The "Who needs a preference pane?" update.
+- Easier to use now, a bit more lightweight.
+- Thanks to /u/7bubbl3s for praising this tool that much.
+Name: aDowngrader
+Author: H6nry
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
